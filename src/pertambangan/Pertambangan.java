@@ -6,10 +6,13 @@ package pertambangan;
 import penjualan.*;
 import java.util.Scanner;
 import CRUD.*;
+import gui.frameUtama;
 
 public class Pertambangan {
 
     public static void main(String[] args) {
+        new frameUtama().setVisible(true);
+    }
         
 //        kenderaan1 dbConnect = new kenderaan1();
 //            dbConnect.dataKenderaan1();
@@ -45,7 +48,7 @@ public class Pertambangan {
 //            dbConnect.hapusUji("2210010690","","","");
 //            dbConnect.ubahUji("2210010690","Marini","082302943009","Jl kelayan A" );
 //            dbConnect.simpanUji("2210010392","Nurmala Sari","082302942210","Jl veteran" );
-        }
+//        }
          
          
 //        Scanner scanner = new Scanner(System.in);
